@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+     <!-- Font Awesome Cdn Link -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+  <!-- Bs Cdn CSS Link 5.3 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <style>
+        /* =========================
+   GALLERY SECTION
+========================= */
+
+.gallery-section {
+    padding: 60px 0;
+    background-color: #f5f9fa;
+}
+
+.gallery-title {
+    text-align: center;
+    color: #073B4C;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.gallery-subtitle {
+    text-align: center;
+    color: #666;
+    margin-bottom: 35px;
+}
+
+
+/* =========================
+   GALLERY IMAGES
+========================= */
+
+.gallery-img {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: all 0.4s ease;
+    display: block;
+}
+
+.gallery-img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Image wrapper */
+
+.gallery-item {
+    overflow: hidden;
+    border-radius: 10px;
+}
+    </style>
+</head>
+<body>
+    <!-- =========================
+     GALLERY SECTION
+========================= -->
+
+<section id="gallery" class="gallery-section">
+
+    <div class="container">
+
+        <h2 class="gallery-title text-center display">Travel Gallery</h2>
+
+        <p class="gallery-subtitle ">
+            Explore beautiful moments from around the world.
+        </p>
+
+        <div class="row g-4">
+
+            <!-- Image 1 -->
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="gallery-item">
+                    <img src="material/card1.png"
+                         class="gallery-img"
+                         alt="Swiss Alps">
+                </div>
+            </div>
+
+            <!-- Image 2 -->
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="gallery-item">
+                    <img src="material/card2.png"
+                         class="gallery-img"
+                         alt="Bali">
+                </div>
+            </div>
+
+            <!-- Image 3 -->
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="gallery-item">
+                    <img src="material/card3.png"
+                         class="gallery-img"
+                         alt="Dubai">
+                </div>
+            </div>
+
+            <!-- Image 4 -->
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="gallery-item">
+                    <img src="material/card 4.png"
+                         class="gallery-img"
+                         alt="Paris">
+                </div>
+            </div>
+
+            <!-- Image 5 -->
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="gallery-item">
+                    <img src="material/card5.png"
+                         class="gallery-img"
+                         alt="Maldives">
+                </div>
+            </div>
+
+            <!-- Image 6 -->
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="gallery-item">
+                    <img src="material/card6.png"
+                         class="gallery-img"
+                         alt="Turkey">
+                </div>
+            </div>
+
+            <!-- Image 7 -->
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="gallery-item">
+                    <img src="material/card7.png"
+                         class="gallery-img"
+                         alt="Tokyo">
+                </div>
+            </div>
+
+            <!-- Image 8 -->
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="gallery-item">
+                    <img src="material/card8.png"
+                         class="gallery-img"
+                         alt="Italy">
+                </div>
+            </div>
+
+            <!-- Image 9 -->
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="gallery-item">
+                    <img src="material/card9.png"
+                         class="gallery-img"
+                         alt="New Zealand">
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+    <!-- Bs Cdn CSS Link 5.3 -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+</body>
+</html>
